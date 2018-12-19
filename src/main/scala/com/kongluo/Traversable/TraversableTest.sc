@@ -12,6 +12,8 @@ println(a)
 println(b)
 println(c)
 
+/********************************************************/
+
 val movieNames = Traversable("小王子","垫底辣妹","海绵宝宝")
 val movieIDs = mutable.HashSet(20645098,26259677,11808948)
 val movies = movieNames ++ movieIDs
@@ -28,5 +30,5 @@ def filterEven:PartialFunction[Int,Int]={
 val result2 = t collect(filterEven)
 println(result2)
 
-
+/********************************************************/
 
