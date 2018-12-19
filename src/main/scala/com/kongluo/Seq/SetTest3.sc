@@ -4,6 +4,7 @@ println(t1)
 println(t2)
 println(t1.corresponds(t2)(_==_.toChar))
 
+/********************************************************/
 val r1 = Range(1,10,2)
 val r2 = Range.apply(1,10,2)
 val r3 = new Range(1,10,2)
